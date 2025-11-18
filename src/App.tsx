@@ -39,12 +39,7 @@ function App() {
         value={{ filters, setFilters: setResetFilter, resetFilter }}
       >
         <Filter />
-        <div
-          style={{
-            height: "50vh",
-          }}
-          className="flex gap-4 px-4 *:flex-1"
-        >
+        <div className="flex gap-4 px-4 *:flex-1 h-50vh">
           <DoughnutChart data={statusData} title="Status Distribution" />
           <DoughnutChart data={categoryData} title="Category Distribution" />
           <BarChart data={itemsPerDay} title="Items by Day" />

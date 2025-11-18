@@ -45,11 +45,7 @@ const DoughnutChart = ({ data, title }: { data: ChartData; title: string }) => {
       data-testid="doughnut-chart"
     >
       <Header title={title} />
-      <div
-        style={{
-          height: "90%",
-        }}
-      >
+      <div className="h-90p">
         <Doughnut data={data} options={options} />
       </div>
     </div>

@@ -29,11 +29,7 @@ const LineChart = ({ title, data }: { data: ChartData; title: string }) => {
       data-testid="bar-chart"
     >
       <Header title={title} />
-      <div
-        style={{
-          height: "60%",
-        }}
-      >
+      <div className="h-60p">
         <Bar data={data} options={options} />
       </div>
     </div>

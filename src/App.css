@@ -44,3 +44,15 @@
 .read-the-docs {
   color: #ffffff;
 }
+
+.h-50vh {
+  height: 50vh;
+}
+
+.h-60p {
+  height: 60%;
+}
+
+.h-90p {
+  height: 90%;
+}
